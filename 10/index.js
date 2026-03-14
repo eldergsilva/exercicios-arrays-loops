@@ -3,8 +3,6 @@ let maiorDiferenca = 0;
 
 for (let i = 0; i < numeros.length; i++) {
     for (let j = 0; j < numeros.length; j++) {
-        console.log(maiorDiferenca);
-        
         const diferencaAtual = numeros[i] - numeros[j];
         
          
@@ -14,4 +12,4 @@ for (let i = 0; i < numeros.length; i++) {
     }
 }
 
-console.log(`maiorDiferenca`);
+console.log(maiorDiferenca);
