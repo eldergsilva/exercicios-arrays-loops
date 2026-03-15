@@ -25,7 +25,6 @@ for (let i =0;i<original.length;i++){
 }
 */
 
-
 for (const numero of original) {
      if(numero %2==0){
         pares.push(numero);
@@ -33,8 +32,6 @@ for (const numero of original) {
         impares.push(numero)
      }
 }
-
-
 
 
 console.log( pares );
